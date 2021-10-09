@@ -14,6 +14,8 @@ public class MyStepdefs {
     @When("user enters user name and password")
     public void userEntersUserNameAndPassword() {
         System.out.println("userEntersUserNameAndPassword()");
+         System.out.println("MODIFIED");
+        
     }
 
     @And("click on login button")

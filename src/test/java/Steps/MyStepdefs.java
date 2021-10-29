@@ -13,14 +13,14 @@ public class MyStepdefs {
 
     @When("user enters user name and password")
     public void userEntersUserNameAndPassword() {
-        System.out.println("userEntersUserNameAndPassword()");
+        System.out.println("userEnters: UserNameAndPassword()");
          System.out.println("MODIFIED");
         
     }
 
     @And("click on login button")
     public void clickOnLoginButton() {
-        System.out.println("clickOnLoginButton()");
+        System.out.println("clickOn:LoginButton()");
     }
 
     @Then("User is navigated to the home page")
